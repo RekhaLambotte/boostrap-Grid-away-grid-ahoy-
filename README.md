@@ -23,9 +23,9 @@ Délai: jour
 En cours
 
 ## Projet déployé: 
-Lien Github : 
+Lien Github : https://github.com/RekhaLambotte/boostrap-Grid-away-grid-ahoy-.git
 
-Lien web: 
+Lien web:  https://rekhalambotte.github.io/boostrap-Grid-away-grid-ahoy-/
 
 ## Remarques:
 
