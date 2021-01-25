@@ -14,13 +14,13 @@ Juste moi :)
 
 ## Instructions:
 Pour cet exercice le but est de rééecrire un fichier css avec sass.
-Délai: jour 
+Délai: 2,5 jours
 
 ## Mission:
 ![mission sass](image/goal-bootstrap.png)
 
 ## Statut:
-En cours
+Terminé
 
 ## Projet déployé: 
 Lien Github : https://github.com/RekhaLambotte/boostrap-Grid-away-grid-ahoy-.git
@@ -28,4 +28,5 @@ Lien Github : https://github.com/RekhaLambotte/boostrap-Grid-away-grid-ahoy-.git
 Lien web:  https://rekhalambotte.github.io/boostrap-Grid-away-grid-ahoy-/
 
 ## Remarques:
-
+C'est très avantageux de travailler sur une seule page pour le css et html.
+Maintenant que je suis plus à l'aise avec bootstrap je comprend mieux son utilité et surtout je vois mieux comment cela fait gqagner du temps.

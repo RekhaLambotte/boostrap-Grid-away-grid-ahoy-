@@ -6,8 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>bootstrap </title>
 </head>
-<body class=" bg-info text-dark text-sm-start text-md-start text-lg-start text-xl-start">
-    <div class="container">
+<body class=" text-dark text-sm-start text-md-start text-lg-start text-xl-start ">
+    <div class="container ">
         <div class="row">
            
             <div class="w-100 d-flex flex-column bd-highlight">
@@ -16,11 +16,42 @@
                 <div class=" d-flex flex-column bd-highlight border">
 
                     <div class=" bg-secondary text-white ">
-                        <div class="row px-5">
-                            <div class="col-7 p-2 bd-highlight align-middle">
-                                <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                <p> Quasi facilis quidem dolore cumque mollitia amet tempore laboriosam dicta libero ratione eum voluptate pariatur, deleniti sapiente temporibus nisi officia? Quaerat, quod.</p>
+                        <ul class="nav justify-content-between px-5">
+                            <div class=" col-2 nav navbar navbar-light bg-transparent justify-content-star">
+                                <a class="navbar-brand bg-transparent " href="#">
+                                    <img src="image/logo-white.jpeg" alt=""  height="100">
+                                </a>
                             </div>
+                            <div class=" nav navbar navbar-light bg-transparent justify-content-end ">
+                                <li class="nav-item">
+                                <a class="nav-link active text-white " aria-current="page" href="#">support</a>
+                                </li>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-b position-relative bg-warning text-white border-danger rounded-pill text-uppercase"> Log in
+                                    </button>
+                                </li>
+                            </div>
+                        </ul>
+                        <div class="row px-5 d-flex align-items-center d-flex justify-content-between">
+                            <div class="col-5 px-5 bd-highlight m-3">
+                                <h1 > Lorem ipsum dolor sit amet consectetur </h1>
+                                <p class="m-3"> Quasi facilis quidem dolore cumque mollitia amet tempore laboriosam dicta libero ratione eum voluptate pariatur.</p>
+                                <ul class="small">
+                                    <li> Lorem ipsum dolor sit, amet consectetur adipisicing elit </li>
+                                    <li>Inventore quae perspiciatis repudiandae debitis</li>
+                                    <li>Magni earum ut nulla iure sit facilis</li>
+                                </ul>
+                                <a href="#cta">
+                                    <button type="button" class="btn btn-primary position-relative bg-danger text-white border-danger rounded-pill text-uppercase m-3"> Main cta button
+                                    </button>
+                                </a>
+                                <a href="#more">
+                                    <button type="button" class="btn position-relative bg-warning text-white border-white rounded-pill text-uppercase m-3"> Learn more
+                                    </button>
+                                </a>
+                            </div>
+                            
                             <div class=" col-5">
                                 <img src="image/bonhomme.png" class="mw-100 rounded float-end" alt="">
                             </div>
@@ -34,30 +65,30 @@
                             <div class="p-2 bd-highlight" >
                                 <ul class="nav justify-content-between">
                                     <div class=" col-2 nav navbar navbar-light bg-light justify-content-star">
-                                        <a class="navbar-brand " href="#">
+                                        <a class="navbar-brand mx-5" href="#">
                                             <img src="image/logo-white.jpeg" alt=""  height="100">
                                         </a>
                                     </div>
                                     <div class=" nav navbar navbar-light bg-light justify-content-end">
                                         <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                                        <a href="#main" class="nav-link active" aria-current="page" href="#">Overview</a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" href="#">Ono-on-One</a>
+                                        <a href="#One-on-One" class="nav-link" href="#">Ono-on-One</a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" href="#">Testimonials</a>
+                                        <a href="#Testimonials" class="nav-link" href="#">Testimonials</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">More</a>
+                                            <a href="#more" class="nav-link" href="#">More</a>
                                         </li>
                                         <li class="nav-item">
-                                            <button type="button" class="btn btn-primary position-relative bg-danger text-white border-warning rounded-pill text-uppercase"> Main cta button
-                                            </button>
+                                            <a href="cta">
+                                                <button type="button" class="btn btn-primary position-relative bg-danger text-white border-danger rounded-pill text-uppercase"> Main cta button
+                                                </button>
+                                            </a>
                                         </li>
                                     </div>
-                                   
-                                    
                                   </ul>
                             </div>
                         </div>
@@ -71,7 +102,7 @@
                             <div class="p-2 bd-highlight border-top-0" >
 
 
-                                <div class="row p-5 ">
+                                <div id="main" class="row p-5 ">
                                     <div class="col-8 p-4 align-middle ">
                                         <p class="text-danger">Lorem ipsum dolor</p>
                                         <p class="fs-3 text-primary">Learn what you need to know</p>
@@ -111,9 +142,9 @@
                                 </div>
 
                                  
-                                <div class="row m-5 small d-flex align-items-center ">
+                                <div id="One-on-One" class="row m-5 small d-flex align-items-center ">
                                     <p class="fs-2 text-muted text-center p-4">One-on-One</p>
-                                    <div class="col  " style="height: 200px"> 
+                                    <div class="col w-100 " style="height: 200px"> 
                                         <p class="text-danger ">Conversational format</p>
                                         <p class="fs-6 text-primary">Dialogue with a tutor</p>
                                         
@@ -121,7 +152,7 @@
                                         
 
                                     </div>
-                                    <div class="col-2 " style="height: 100%" >
+                                    <div class="col-2 w-100" style="height: 100%" >
                                       <img src="image/message.png" alt="" class="rounded float-end img-fluid h-auto " >
                                     </div>
                                     <div class="col " style="height: 200px"> 
@@ -130,7 +161,7 @@
                                         <p>
                                         Repellendus dolore nam quasi aliquid ab soluta pariatur odio distinctio hic eius iusto sequi possimus, minima provident error cumque ex voluptate? Sunt!</p>
                                     </div>
-                                    <div class="col-2 " style="height: 100%" >
+                                    <div class="col-2 w-100" style="height: 100%" >
                                         <img src="image/screen-small.png" alt="" class=" rounded float-end img-fluid " >
                                     </div>
                                     <div class="w-100"></div>
@@ -139,7 +170,7 @@
                                         <p class="fs-6 text-primary">Keep track of your progress</p>
                                         Amet sunt distinctio dolorum id, dolor autem vel praesentium, repudiandae, asperiores iusto molestiae esse delectus voluptatum dolorem explicabo rerum? 
                                     </div>
-                                    <div class="col-2 pt-4 " style="height: 100%" >
+                                    <div class="col-2 w-100 pt-4 " style="height: 100%" >
                                         <img src="image/graph-small.png" alt="" class="rounded float-end img-fluid" >
                                     </div>
                                     <div class="col pt-4 " style="height: 200px">
@@ -154,7 +185,7 @@
 
 
 
-                                <div class="row m-5">
+                                <div id="Testimonials" class="row m-5">
                                     <p class="fs-2 text-muted text-center p-4">Testimonials</p>
                                     <div class="col-sm text-center">
                                         <img style="height: 150px" src="image/video.png" alt="">
@@ -194,7 +225,7 @@
 
 
 
-                                <div class="row d-flex align-items-center ">
+                                <div id="more" class="row d-flex align-items-center ">
                                     <p class="fs-2 text-muted text-center p-4">Wait, there's more!</p>
                                     <div class="col-6 m-5 align-middle ">
                                         <p class=" text-danger">Learn anywhere</p>
@@ -234,7 +265,7 @@
                                     </div>
                                     
                                 </div>
-                                <div class="row border-top m-5 text-center">
+                                <div id="cta" class="row border-top m-5 text-center">
                                     
                                     <div class="d-grid gap-2 col-5 mx-auto pt-5">
                                         <button type="button" class="btn btn-primary bg-danger text-white border-danger rounded-pill text-uppercase p-3"><strong> It's a really big cta </strong></button>        
@@ -254,13 +285,10 @@
             
         </div>
     </div>
-
-
-   
     <div class="p-5 bg-secondary text-white text-uppercase text-center">
         <footer> Footer Material</footer>
     </div>
 
-        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>      
 </body>
 </html>
